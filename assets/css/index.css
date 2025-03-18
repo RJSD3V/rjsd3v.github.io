@@ -122,6 +122,27 @@ img.dp{
   box-shadow: 4px 4px;
 }
 
+.overview{
+  width: 100%;
+  background-color: white;
+  margin: auto;
+
+  
+}
+
+#ov-title{
+  padding-left: 50px;
+  padding-top: 50px;
+  
+}
+#ov-img{
+  margin: auto;
+  padding: 40px;
+  justify-self: center;
+  align-items: center;
+}
+
+
 
 .article{
   width: 90%;
@@ -135,7 +156,7 @@ img.dp{
   box-shadow: 1px 1px;
   padding: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   
 }
 .article-date{
@@ -202,6 +223,10 @@ iframe{
    background-color: #FFFFCC;
 }
 
+blockquote{
+  text-align: center;
+}
+
 #snowflake{
   background-color: lightblue;
   color: white;
@@ -256,4 +281,13 @@ iframe{
 footer{
   width: 100%;
   height: 20%;
+}
+
+.container{
+ display: grid
+}
+
+
+.item{
+  grid-row: 3/3; 
 }
