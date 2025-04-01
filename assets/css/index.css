@@ -18,9 +18,25 @@ body{
   
 }
 
-.blog{
-  width:80%;
+table{
+  border: 1px solid black;
   margin: auto;
+}
+
+tr{
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+.blog{
+  width:90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
 .name-card{
@@ -108,6 +124,27 @@ img.dp{
   box-shadow: 4px 4px;
 }
 
+.overview{
+  width: 100%;
+  background-color: white;
+  margin: auto;
+
+  
+}
+
+#ov-title{
+  padding-left: 50px;
+  padding-top: 50px;
+  
+}
+#ov-img{
+  margin: auto;
+  padding: 40px;
+  justify-self: center;
+  align-items: center;
+}
+
+
 
 .article{
   width: 90%;
@@ -119,16 +156,20 @@ img.dp{
   margin-bottom: 10px;
   border: 0.5px solid gray;
   box-shadow: 1px 1px;
-  padding: 50px;
-  display: flex;
-  justify-content: space-between;
+  padding: 30px;
+
   
 }
 .article-date{
   width:10%;
 }
 .article-content{
-  width:80%
+  width:80%;
+  margin: auto;
+}
+
+.thumbnail {
+  width:90%;
 }
 
 .article-img{
@@ -188,6 +229,10 @@ iframe{
    background-color: #FFFFCC;
 }
 
+blockquote{
+  text-align: center;
+}
+
 #snowflake{
   background-color: lightblue;
   color: white;
@@ -242,4 +287,13 @@ iframe{
 footer{
   width: 100%;
   height: 20%;
+}
+
+.container{
+ display: grid
+}
+
+
+.item{
+  grid-row: 3/3; 
 }
