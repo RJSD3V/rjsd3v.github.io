@@ -35,6 +35,8 @@ tr:nth-child(even) {
 .blog{
   width:90%;
   margin: auto;
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
 .name-card{
@@ -154,16 +156,20 @@ img.dp{
   margin-bottom: 10px;
   border: 0.5px solid gray;
   box-shadow: 1px 1px;
-  padding: 50px;
-  display: flex;
-  justify-content: space-evenly;
+  padding: 30px;
+
   
 }
 .article-date{
   width:10%;
 }
 .article-content{
-  width:80%
+  width:80%;
+  margin: auto;
+}
+
+.thumbnail {
+  width:90%;
 }
 
 .article-img{
