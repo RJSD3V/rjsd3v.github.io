@@ -7,6 +7,10 @@ body{
   background-color: #F0F8FF;
 }
 
+footer{
+  padding: 50px;
+}
+
 .main{
   display: flex;
   width: 100%;
@@ -30,6 +34,19 @@ tr{
 
 tr:nth-child(even) {
   background-color: #D6EEEE;
+}
+
+.overview{
+  width:85%;
+  padding: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  background-color: white;
+  border: 0.5px solid gray;
+  box-shadow: 1px 1px;
+
+
 }
 
 .blog{
@@ -62,6 +79,10 @@ tr:nth-child(even) {
   text-decoration: none;
   color:#f4900c;
 }
+.title-link:visited{
+  color:#ff9c59;
+  text-decoration: none;
+}
 
 .contact{
   width:10%;
@@ -88,7 +109,7 @@ img.dp{
   justify-content: space-around;
   width: 100%;
   margin: auto;
-  background-color: #f4900c;
+  background-color: #ff9c59;
 }
 
 .nav{
@@ -124,13 +145,7 @@ img.dp{
   box-shadow: 4px 4px;
 }
 
-.overview{
-  width: 100%;
-  background-color: white;
-  margin: auto;
 
-  
-}
 
 #ov-title{
   padding-left: 50px;
@@ -188,7 +203,7 @@ img.dp{
 .nav p {
   text-align: center;
   color: white;
-  background-color: #f4900c ;
+  background-color: #ff9c59;
   width: 100%;
   margin:auto;
   padding: 16px;
