@@ -4,22 +4,36 @@ body{
   font-weight: bold;
   font-style: normal;
   margin: 2px;
-  background-color: #F0F8FF;
+  background-color: #EFEFEF;
 }
 
 footer{
   padding: 50px;
 }
 
-.main{
+main{
+
+margin-top: 30px;
+margin-bottom: 30px;
+height:90vh;
+
+}
+
+header{
   display: flex;
+  flex-direction: column;
   width: 100%;
+  padding-top: 5%;
   margin: auto;
-  justify-content: space-between;
-  align-items: center;
   background-color: white;
   color: black;
+  text-align: center;
   
+}
+
+#name{
+  margin: auto;
+  padding: 10px 0px 20px 0px;
 }
 
 table{
@@ -51,6 +65,7 @@ tr:nth-child(even) {
 
 .blog{
   width:90%;
+  min-height:70%;
   margin: auto;
   display: grid;
   grid-template-columns: auto auto;
@@ -85,10 +100,11 @@ tr:nth-child(even) {
 }
 
 .contact{
-  width:10%;
+  width:60%;
+  margin: auto;
   height: auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
   
 }
@@ -107,9 +123,9 @@ img.dp{
 .navbar{
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  width: 50%;
   margin: auto;
-  background-color: #ff9c59;
+  background-color: white;
 }
 
 .nav{
@@ -118,7 +134,7 @@ img.dp{
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 1px 1px;
+ 
 }
 
 
@@ -127,12 +143,25 @@ img.dp{
   width: 33%;
   text-decoration: none;
   display: block;
-  color:white;
+  color:black;
 
 }
 
+.social{
+  text-decoration: none;
+  color: black;
+
+}
+.social:hover{
+  text-decoration: underline;
+}
 
 
+footer{
+  background-color: white;
+
+  height:10%;
+}
 
 .link-nav{
   width:100%;
@@ -142,7 +171,7 @@ img.dp{
 }
 
 .nav:hover{
-  box-shadow: 4px 4px;
+  text-decoration: underline;
 }
 
 

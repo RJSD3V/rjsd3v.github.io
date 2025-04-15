@@ -6,15 +6,29 @@ body{
     margin: 2px;
     background-color: #F0F8FF;
   }
+
+  footer{
+    width: 100%;
+    height: 10vh;
+    background-color:white;
+  }
+
+  main{
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+    }
+
   
-  .main{
+  header{
     display: flex;
+    flex-direction: column;
     width: 100%;
     margin: auto;
-    justify-content: space-between;
-    align-items: center;
     background-color: white;
     color: black;
+    text-align: center;
     
   }
   
@@ -48,18 +62,25 @@ body{
   }
   
   .contact{
-    width:10%;
+    width:60%;
+    margin: auto;
     height: auto;
     display: flex;
-    flex-direction: column;
+    padding:20px;
+    flex-direction: row;
     justify-content: space-around;
     
   }
+
+  .social{
+    text-decoration: none;
+    color: black;
   
-  img .social:hover{
-    width: 55px;
-    height: 55px;
   }
+  .social:hover{
+    text-decoration: underline;
+  }
+
   
   
   
@@ -70,9 +91,9 @@ body{
   .navbar{
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 50%;
     margin: auto;
-    background-color: #f4900c;
+    background-color: white;
   }
   
   .nav{
@@ -81,16 +102,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 1px 1px;
+   
   }
   
   
   .nav-link{
-  
+
     width: 33%;
     text-decoration: none;
     display: block;
-    color:white;
+    color:black;
   
   }
   
@@ -105,7 +126,7 @@ body{
   }
   
   .nav:hover{
-    box-shadow: 4px 4px;
+    text-decoration: underline;
   }
   
   
@@ -232,7 +253,4 @@ body{
     background-color:cornflowerblue;
   }
   
-  footer{
-    width: 100%;
-    height: 20%;
-  }
+
