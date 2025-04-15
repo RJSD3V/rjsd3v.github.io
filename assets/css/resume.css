@@ -13,12 +13,18 @@ body{
     background-color:white;
   }
 
+  main{
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+    }
+
   
-  .main{
+  header{
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding-top: 5%;
     margin: auto;
     background-color: white;
     color: black;
