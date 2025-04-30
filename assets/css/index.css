@@ -5,6 +5,7 @@ body{
   font-style: normal;
   margin: 2px;
   background-color: #EFEFEF;
+  font-size:18px;
 }
 
 footer{
@@ -59,6 +60,7 @@ tr:nth-child(even) {
   background-color: white;
   border: 0.5px solid gray;
   box-shadow: 1px 1px;
+  font-size: 18px;
 
 
 }
@@ -212,6 +214,20 @@ footer{
   margin: auto;
 }
 
+.blog-img {
+  width:100%;
+  height:100%;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+}
+
+.img-grid {
+  display: grid;
+  grid-template-columns: 55% 40%;
+  gap: 20px;
+}
 .thumbnail {
   width:90%;
 }
