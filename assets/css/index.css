@@ -3,13 +3,13 @@ body{
   font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
-  margin: 2px;
   background-color: #EFEFEF;
   font-size:18px;
 }
 
 footer{
-  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 main{
