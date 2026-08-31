@@ -1,157 +1,381 @@
 <!DOCTYPE html>
-<html>
-  <head>
-        <link rel="stylesheet" href="./assets/css/index.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-  </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raajas Sode — AI Engineer &amp; Builder</title>
+  <meta name="description" content="Raajas Sode — AI/Data engineer and indie game developer. Portfolio of projects, videos, work experience and writing." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
 <body>
 
-  <header>
-    <p id="name"> Raajas Sode </p>
-    <div class="navbar">
-      <a class="nav-link" href="#"><div class="nav" id="div1"> Home</div></a>
-      <a class="nav-link" href="./articles/resume.html"><div class="nav" id="div3"> Work Experience</div></a>
-      <a class="nav-link" href="./articles/resources.html"><div class="nav" id="div3"> Resources </div></a>
+  <header class="site-header">
+    <div class="container">
+      <a href="#home" class="brand">Raajas<span>.</span>Sode</a>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#portfolio">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#resources">Resources</a></li>
+        <li><a href="#fun">Fun</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
     </div>
-
   </header>
 
+  <main>
 
-  <div class="overview">
+    <!-- ============================== HOME ============================== -->
+    <section id="home" class="hero">
+      <div class="container">
+        <p class="section-label">AI &amp; Data Engineer</p>
+        <h1>Hi, I'm Raajas Sode.</h1>
+        <p class="tagline">
+          I build AI-oriented software with data quality as the focal point. Over the past few years I've worked with
+          startups across marketing, finance, fashion and even hardware. This site is a small window into the kind of
+          work I do.
+        </p>
+        <div class="cta-row">
+          <a href="#portfolio" class="btn btn-primary">View my projects</a>
+          <a href="#experience" class="btn btn-secondary">See my experience</a>
+        </div>
 
-   <h1>Welcome to my website</h1>
-   <p>
-    I indulge in AI oriented software development, Focusing on Data quality as the focal point. For the past few years I have worked for several
-    startups in a wide range of use cases, ranging from marketing, finance, fashion and even hardware. This website is a small window into the kind of work I do. 
-
-   </p>
-
-
-
-  </div>
- 
-  <div class="overview">
-
-    <h1>I spent 2024 builing startups.</h1>
-    <p>
-      After quitting my job as a Data Engineer in late November 2023, I dove head first into building startups with nothing but grit and knowledge I gained
-      through experience gained from dealing with high stakes projects. Starting in March 2024, I began my journey of understanding requirements, clients and the market, 
-      A full one year was a whirlwind of learning new frameworks, reading papers, understanding technologies and talking to like-minded people building on their passion.
-      After finishing a year long sprint of what could never be considered as conventional work experience, I find myself in a position of autonomy, 
-      something surreal I've never experienced before in my life. Having learned all that I have, savoring moments of victory and and learning from many many failures.
-      <br>
-      Working on baremetal AI servers, writing AI agents, creating seamless frontend for chatbots, everything feels like an absolute dream. The time I didnt' spend coding, 
-      I spent sharing ideas on AI, games and Large Language models. 
-
-     
-      
-    </p>
-    <div class="img-grid">
-     <div>
-      <img src="./assets/images/sydney_startup.png" class="blog-img"/>
-     </div> 
-     <div>
-      <img src="./assets/images/mumbai_talk.JPG" class="blog-img" />
-     </div>
-    
-
-    </div>
-
-
-   
- 
- 
- 
-   </div>
-  <div class="blog">
-
-
-
-    <div class="article">
-      <div class="article-content">
-        <h1 > <a class="title-link" href="https://substack.com/profile/12313986-raajas-sode/note/c-108699674"><u>Building Games for Fun.</u></a> </h1>
-        <p> Started pursuing the art of building games my 10 year old self would fawn over.</p>
-        <img src="./game_dev_banner.png" class="thumbnail" />
-    
+        <div class="hero-story reveal">
+          <h3>I spent 2024 building startups.</h3>
+          <p>
+            After quitting my job as a Data Engineer in late November 2023, I dove head first into building startups
+            with nothing but grit and knowledge gained from dealing with high-stakes projects. Starting in March 2024,
+            I began understanding requirements, clients and the market — a full year that was a whirlwind of learning
+            new frameworks, reading papers, understanding technologies and talking to like-minded people building on
+            their passion. After that year-long sprint of anything but conventional work experience, I found myself in
+            a position of autonomy, something surreal I'd never experienced before.
+          </p>
+          <p>
+            Working on baremetal AI servers, writing AI agents, and building seamless frontends for chatbots — it all
+            feels like a dream. The time I didn't spend coding, I spent sharing ideas on AI, games and large language
+            models.
+          </p>
+          <div class="img-grid">
+            <img src="./assets/media/sydney_startup.png" alt="Speaking at a startup event in Sydney" />
+            <img src="./assets/media/mumbai_talk.JPG" alt="Giving a talk at a conference in Mumbai" />
+          </div>
+        </div>
       </div>
-    
-    </div>
+    </section>
 
+    <!-- ============================== BLOG ============================== -->
+    <section id="blog" class="alt">
+      <div class="container">
+        <p class="section-label reveal">Writing</p>
+        <h2 class="section-title reveal">From the blog</h2>
 
-
-    <div class="article">
-      <div class="article-content">
-        <h1 > <a class="title-link" href="https://medium.com/@RaajasSode/training-large-language-models-with-an-amd-gpu-85e53616b20c"><u>Training Large Language Models with an AMD GPU </u></a> </h1>
-        <p>I have spent quite some time working on machines with AMD GPUs to build frameworks and APIs around AI Training. Credit where its due…</p>
-       
-        <img src="./assets/images/amd-banner.webp" class="thumbnail" />
-    
-      </div>
-    
-    </div>
-
-
-    <!-- <div class="article">
-
-      <div class="article-content">
-        <h1 > <a class="title-link" href="articles/portfolio.html"><u>The AI Game</u></a> </h1>
-        <img src="./ai-game.png" class="thumbnail" />
-    
-      </div>
-    
-    </div> -->
-
-
-      <div class="article">
-          <div class="article-content">
-            <h1 > <a class="title-link" href="https://medium.com/@RaajasSode/building-end-to-end-data-pipelines-locally-with-duckdb-e5a6913f210b"><u>Data Modelling with dbt and Duckdb</u></a> </h1>
-            <p>Creating OLAP data models and dashboards locally using duckdb and dbt</p>
-            <div class="thumb-container">
-              <img src="./assets/images/duckdb-blog.png" class="thumbnail" />
+        <div class="blog-grid">
+          <div class="blog-card reveal">
+            <img src="./assets/media/game_dev_banner.png" alt="Building Games for Fun" />
+            <div class="card-body">
+              <h3><a class="title-link" href="https://substack.com/profile/12313986-raajas-sode/note/c-108699674" target="_blank" rel="noopener">Building Games for Fun</a></h3>
+              <p>Started pursuing the art of building games my 10 year old self would fawn over.</p>
             </div>
-            
-            
           </div>
 
-    </div>
+          <div class="blog-card reveal">
+            <img src="./assets/media/amd-banner.webp" alt="Training Large Language Models with an AMD GPU" />
+            <div class="card-body">
+              <h3><a class="title-link" href="https://medium.com/@RaajasSode/training-large-language-models-with-an-amd-gpu-85e53616b20c" target="_blank" rel="noopener">Training Large Language Models with an AMD GPU</a></h3>
+              <p>I've spent quite some time working on machines with AMD GPUs to build frameworks and APIs around AI training.</p>
+            </div>
+          </div>
 
-    <div class="article">
-      <div class="article-content">
-        <h1 > <a class="title-link" href="https://medium.com/@RaajasSode/exploring-agentic-workflows-with-langgraph-and-neo4j-c4cd031814e9"><u>Exploring Agentic Workflows with Langgraph and Neo4j</u></a> </h1>
-        <p>A deep dive into building an agent that helps me understand complex relationships between Ideas and concepts in text, and build a knowledge graph. And when I thought of graphs, I thought of using Neo4j for the same. But Since I was new to Langgraph, I started simple...</p>
-        <div class="thumb-container">
-          <img src="./assets/images/langgraph.png" class="thumbnail" />
+          <div class="blog-card reveal">
+            <img src="./assets/media/duckdb-blog.png" alt="Data Modelling with dbt and DuckDB" />
+            <div class="card-body">
+              <h3><a class="title-link" href="https://medium.com/@RaajasSode/building-end-to-end-data-pipelines-locally-with-duckdb-e5a6913f210b" target="_blank" rel="noopener">Data Modelling with dbt and DuckDB</a></h3>
+              <p>Creating OLAP data models and dashboards locally using DuckDB and dbt.</p>
+            </div>
+          </div>
+
+          <div class="blog-card reveal">
+            <img src="./assets/media/langgraph.png" alt="Exploring Agentic Workflows with Langgraph and Neo4j" />
+            <div class="card-body">
+              <h3><a class="title-link" href="https://medium.com/@RaajasSode/exploring-agentic-workflows-with-langgraph-and-neo4j-c4cd031814e9" target="_blank" rel="noopener">Exploring Agentic Workflows with Langgraph and Neo4j</a></h3>
+              <p>Building an agent that maps relationships between ideas in text into a knowledge graph, using Langgraph and Neo4j.</p>
+            </div>
+          </div>
         </div>
-        
-        
       </div>
+    </section>
 
-</div>
+    <!-- ============================== PORTFOLIO ============================== -->
+    <section id="portfolio">
+      <div class="container">
+        <p class="section-label reveal">Projects</p>
+        <h2 class="section-title reveal">Featured Projects</h2>
 
+        <div class="portfolio-grid">
 
-    <!-- <div class="article">
-      <h2>How I turned my college project into a lifelong passion.</h2>
-      <hr>
-      <p>Every Final Year College project is a pain in the ass. Especially for technical courses.
-         For me, a computer science major didn’t offer a lot of lucrative options. We got to chose between Java , .Net and Android. Since, I’ve been well versed with Java since the 8th grade, I figured maybe I could give it a go...</p>
-      <a href="https://medium.com/@RaajasSode/how-i-turned-a-college-project-into-a-life-long-passion-f333496f6803">Read More</a>
-    </div> -->
+          <div class="card reveal featured" data-category="game-dev">
+            <div class="card-media">
+              <button class="expand-btn" style="position:static; width:100%; height:100%; border-radius:0;" data-youtube="W-Q1BAYoYBo" aria-label="Play Tapspace demo day video">&#9654;</button>
+            </div>
+            <div class="card-body">
+              <span class="card-tag card-tag-launched">&#10003; Completed &amp; Launched</span>
+              <h3>Tapspace — Buildspace Demo Day</h3>
+              <p>A hackathon project I designed, built, and shipped end-to-end during a Buildspace cohort demo day — actually completed and launched, unlike most of my side experiments.</p>
+              <a class="card-link" href="https://buildspace.so/s4/demoday/tapspace" target="_blank" rel="noopener">View the live demo day project &rarr;</a>
+            </div>
+          </div>
 
+          <div class="card reveal" data-category="data">
+            <div class="card-media">
+              <img src="./assets/media/climatology_dashboard.png" alt="Climatology dashboard visualization" />
+            </div>
+            <div class="card-body">
+              <span class="card-tag">Data</span>
+              <h3>Climatology Dashboard</h3>
+              <p>An interactive climate-data dashboard exploring historical weather trends and visualization design.</p>
+              <a class="card-link" href="https://medium.com/@RaajasSode/building-end-to-end-data-pipelines-locally-with-duckdb-e5a6913f210b" target="_blank" rel="noopener">Read how I built it &rarr;</a>
+            </div>
+          </div>
 
+        </div>
+      </div>
+    </section>
 
-  </div>
-  
-  <footer>
-    <div class="contact">
-      <a href="https://www.linkedin.com/in/raajassode" class="social">linkedin</a>
-      <a href="https://www.github.com/RJSD3V" class="social">github</a>
-      <a href="https://www.x.com/so_raajas" class="social">twitter</a>
-    </div> 
+    <!-- ============================== EXPERIENCE ============================== -->
+    <section id="experience" class="alt">
+      <div class="container">
+        <p class="section-label reveal">Experience</p>
+        <h2 class="section-title reveal">Where I've worked</h2>
+        <p class="reveal" style="color:var(--text-muted); max-width:700px; margin-bottom:2.5rem;">
+          I'm an AI Engineer with 5+ years of experience leveraging data and generative AI to design and implement
+          impactful solutions, most recently in investment banking. I specialize in building and optimizing ETL
+          pipelines, fine-tuning large language models, and automating workflows to drive high-quality, data-driven
+          insights — with a strong emphasis on operational efficiency and scalable AI/data engineering practices.
+        </p>
+
+        <div class="timeline">
+
+          <div class="timeline-item reveal">
+            <h3>Senior Technology Associate - Data &amp; AI</h3>
+            <p class="role-dates">Morgan Stanley &middot; June 2025 &ndash; Present</p>
+            <ul>
+              <li>Developing data infrastructure and semantic models that Generative AI models use as extensive context outside of reporting.</li>
+              <li>Built a data quality matrix across business components for better visibility into data quality and accuracy, using dbt models, tests, and pre/post hooks to establish clean error lineage.</li>
+              <li>Developed multi-agent systems for parsing and analyzing massive text documents at scale.</li>
+              <li>Led design and development of ETL pipelines and data models supporting stakeholder reporting and analytics, automating ingestion and validation with Python.</li>
+              <li>Architected and optimized Snowflake ETL pipelines using secure SQL — efficient DDLs, stored procedures, and stepwise, incrementally-loaded transformations.</li>
+              <li>Delivered firm-wide training on integrating Agentic AI and GitHub Copilot into workflows, driving adoption of AI-powered automation.</li>
+            </ul>
+            <div class="stack">
+              <span class="tag tag-python">Python</span>
+              <span class="tag tag-snowflake">Snowflake</span>
+              <span class="tag tag-dbt">dbt</span>
+              <span class="tag tag-sql">SQL</span>
+              <span class="tag tag-github">GitHub Copilot</span>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <h3>AI Engineer</h3>
+            <p class="role-dates">Independent Consultant &middot; March 2024 &ndash; June 2025</p>
+            <ul>
+              <li>Independently designed and developed full-stack generative AI applications in startup environments, managing the full model lifecycle from training through deployment.</li>
+              <li>Fine-tuned, evaluated, and deployed client-facing LLMs using open-source frameworks such as LangChain, LlamaIndex, and Hugging Face.</li>
+              <li>Created Python and Bash automation scripts for deployment, monitoring, and scaling of AI models and infrastructure.</li>
+              <li>Engineered GPU-accelerated training and inference pipelines optimized for performance and cost-efficiency.</li>
+              <li>Developed domain-specific retrieval-augmented generation (RAG) systems to improve relevance and accuracy of LLM outputs.</li>
+              <li>Built inference and prompt engineering frameworks aligned with ISO quality standards.</li>
+            </ul>
+            <div class="stack">
+              <span class="tag tag-python">Python</span>
+              <span class="tag tag-langchain">LangChain</span>
+              <span class="tag tag-huggingface">Hugging Face</span>
+              <span class="tag tag-bash">Bash</span>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <h3>Analytics Engineer</h3>
+            <p class="role-dates">Resonance Companies &middot; September 2022 &ndash; November 2023</p>
+            <ul>
+              <li>Extensive use of dbt for data modeling and transformation within Snowflake.</li>
+              <li>Developed machine learning models in Python for tasks such as predicting product defects.</li>
+              <li>Designed Snowflake-based data models and pipelines as the central finance data warehouse, supporting accurate revenue and expense reporting.</li>
+              <li>Optimized ETL workflows — DDLs, stored procedures, and transformation scripts — for secure, incrementally-loaded, performant data processing.</li>
+              <li>Developed automated CI/CD pipelines leveraging Docker, Kubernetes, and Argo CD to deploy and scale data solutions.</li>
+              <li>Created Looker dashboards for finance stakeholders, aligning reporting metrics to business objectives.</li>
+            </ul>
+            <div class="stack">
+              <span class="tag tag-python">Python</span>
+              <span class="tag tag-snowflake">Snowflake</span>
+              <span class="tag tag-dbt">dbt</span>
+              <span class="tag tag-docker">Docker</span>
+              <span class="tag tag-kubernetes">Kubernetes</span>
+              <span class="tag tag-looker">Looker</span>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <h3>Data Engineer</h3>
+            <p class="role-dates">Penpath LLC &middot; August 2021 &ndash; September 2022</p>
+            <ul>
+              <li>Created data warehousing infrastructure and pipelines leveraging Snowflake to deliver marketing analysis and drive client sales.</li>
+              <li>Extensive dbt model development for data transformation and analysis within Snowflake.</li>
+              <li>Managed and maintained Tableau dashboards for data visualization and reporting.</li>
+              <li>Developed Markov chain models in Python for multi-touch attribution marketing, extracting channel-specific revenue impacts.</li>
+              <li>Developed data integration pipelines for Python-based machine learning algorithms.</li>
+            </ul>
+            <div class="stack">
+              <span class="tag tag-python">Python</span>
+              <span class="tag tag-snowflake">Snowflake</span>
+              <span class="tag tag-dbt">dbt</span>
+              <span class="tag tag-tableau">Tableau</span>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <h3>Software Engineer</h3>
+            <p class="role-dates">LetsCooee &middot; July 2020 &ndash; August 2021</p>
+            <ul>
+              <li>Designed and deployed end-to-end mobile applications using Flutter, with web-based APIs using Node.js, Mongoose, and MongoDB.</li>
+              <li>Built and deployed templates for HTML-based games for clients.</li>
+            </ul>
+            <div class="stack">
+              <span class="tag tag-flutter">Flutter</span>
+              <span class="tag tag-mongodb">MongoDB</span>
+              <span class="tag tag-nodejs">NodeJS</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== RESOURCES ============================== -->
+    <section id="resources">
+      <div class="container">
+        <p class="section-label reveal">Resources</p>
+        <h2 class="section-title reveal">Things that helped me learn</h2>
+
+        <div class="resources-grid">
+          <div class="resource-group reveal">
+            <h3>Data Engineering &amp; MLOps</h3>
+            <ul>
+              <li><a href="https://dev.to/grayhat/modern-data-engineering-roadmap-2024-thread-with-resources-and-references-1ndn" target="_blank" rel="noopener">Modern Data Engineering Roadmap</a></li>
+              <li><a href="https://github.com/DataEngineer-io/data-engineer-handbook" target="_blank" rel="noopener">Data Engineering Handbook</a></li>
+              <li><a href="https://www.youtube.com/watch?v=-dJPoLm_gtE" target="_blank" rel="noopener">MLOps Course (freeCodeCamp)</a></li>
+              <li><a href="https://www.kdnuggets.com/5-free-courses-to-master-mlops" target="_blank" rel="noopener">5 Free Courses to Master MLOps</a></li>
+            </ul>
+          </div>
+
+          <div class="resource-group reveal">
+            <h3>AI &amp; LLMs</h3>
+            <ul>
+              <li><a href="https://www.kdnuggets.com/generative-ai-key-terms-explained" target="_blank" rel="noopener">Key Terms in Generative AI, Explained</a></li>
+              <li><a href="https://dev.to/quine/8-llms-and-deep-learning-repos-to-get-you-into-the-top-1-108g" target="_blank" rel="noopener">8 LLM &amp; Deep Learning Repos</a></li>
+              <li><a href="https://youtube.com/shorts/cxckw61uIkE?si=xaiXEeXdfUqVPVI7" target="_blank" rel="noopener">5 Channels for Learning Data Science</a></li>
+            </ul>
+          </div>
+
+          <div class="resource-group reveal">
+            <h3>Open Source</h3>
+            <ul>
+              <li><a href="https://up-for-grabs.net/" target="_blank" rel="noopener">Good First Issues for Open Source</a></li>
+              <li><a href="https://goodfirstissue.dev/" target="_blank" rel="noopener">Good First Issue</a></li>
+              <li><a href="https://firstcontributions.github.io/" target="_blank" rel="noopener">First Contributions</a></li>
+            </ul>
+          </div>
+
+          <div class="resource-group reveal">
+            <h3>General Learning</h3>
+            <ul>
+              <li><a href="https://ryanstutorials.net/bash-scripting-tutorial/bash-script.php" target="_blank" rel="noopener">Bash Scripting Tutorial</a></li>
+              <li><a href="https://austinhenley.com/blog/challengingprojects.html" target="_blank" rel="noopener">Challenging Projects to Level Up Your Coding</a></li>
+              <li><a href="https://inventwithpython.com/bigbookpython/" target="_blank" rel="noopener">The Big Book of Python Projects (paid)</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== FUN ============================== -->
+    <section id="fun" class="alt">
+      <div class="container">
+        <p class="section-label reveal">Side Quests</p>
+        <h2 class="section-title reveal">What I do for fun</h2>
+        <p class="reveal" style="color:var(--text-muted); max-width:700px; margin-bottom:2.5rem;">
+          Outside of data and AI, I like tinkering with game dev and augmented reality — small, unfinished experiments
+          built purely for the joy of making something interactive.
+        </p>
+
+        <div class="fun-grid reveal">
+          <div class="fun-item wide">
+            <video src="./assets/media/platformer3D.mp4#t=0.5" preload="metadata" muted playsinline></video>
+            <button class="expand-btn fun-trigger" data-video-src="./assets/media/platformer3D.mp4" aria-label="Play 3D Platformer clip">&#9654;</button>
+            <span class="fun-caption">3D Platformer</span>
+          </div>
+          <div class="fun-item">
+            <video src="./assets/media/candydrop.mp4#t=0.5" preload="metadata" muted playsinline></video>
+            <button class="expand-btn fun-trigger" data-video-src="./assets/media/candydrop.mp4" aria-label="Play CandyDrop clip">&#9654;</button>
+            <span class="fun-caption">CandyDrop</span>
+          </div>
+          <div class="fun-item">
+            <video src="./assets/media/ARSpin.mp4#t=0.5" preload="metadata" muted playsinline></video>
+            <button class="expand-btn fun-trigger" data-video-src="./assets/media/ARSpin.mp4" aria-label="Play AR Spin clip">&#9654;</button>
+            <span class="fun-caption">AR Spin</span>
+          </div>
+          <div class="fun-item">
+            <video src="./assets/media/food_rain.mp4#t=0.5" preload="metadata" muted playsinline></video>
+            <button class="expand-btn fun-trigger" data-video-src="./assets/media/food_rain.mp4" aria-label="Play Food Rain clip">&#9654;</button>
+            <span class="fun-caption">Food Rain</span>
+          </div>
+          <div class="fun-item wide">
+            <video src="./assets/media/orbiter.mp4#t=0.5" preload="metadata" muted playsinline></video>
+            <button class="expand-btn fun-trigger" data-video-src="./assets/media/orbiter.mp4" aria-label="Play Orbiter clip">&#9654;</button>
+            <span class="fun-caption">Orbiter</span>
+          </div>
+          <div class="fun-item">
+            <img src="./assets/media/ghostbustersar.jpeg" alt="Ghostbusters-inspired AR demo" />
+            <span class="fun-caption">Ghostbusters AR</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="container">
+      <h2>Let's connect</h2>
+      <p>Always happy to talk AI, data or games.</p>
+      <div class="social-row">
+        <a href="https://www.linkedin.com/in/raajassode" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <img src="./assets/media/linkedin-svgrepo-com.svg" alt="" />
+        </a>
+        <a href="https://www.github.com/RJSD3V" target="_blank" rel="noopener" aria-label="GitHub">
+          <img src="./assets/media/github-142-svgrepo-com.svg" alt="" />
+        </a>
+        <a href="https://www.x.com/so_raajas" target="_blank" rel="noopener" aria-label="X (Twitter)">
+          <img src="./assets/media/x-logo.png" alt="" />
+        </a>
+      </div>
+      <p class="copyright">&copy; <span id="year"></span> Raajas Sode</p>
+    </div>
   </footer>
-  </body>
+
+  <div class="modal" id="media-modal">
+    <button class="modal-close" id="media-modal-close" aria-label="Close">&times;</button>
+    <div class="modal-body" id="media-modal-body"></div>
+  </div>
+
+  <script src="./assets/js/main.js"></script>
+</body>
 </html>
